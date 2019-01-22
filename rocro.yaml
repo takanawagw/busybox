@@ -2,4 +2,4 @@ inspecode:
   infer:
     options:
       - --linters-def-file: tainted_scalar.al
-      - --: [make, busybox]
+      - --: [make, infer_build]
