@@ -1,5 +1,6 @@
 inspecode:
   infer:
     options:
+      - --keep-going
       - --linters-def-file: tainted_scalar.al
       - --: [make, infer_build]
